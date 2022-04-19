@@ -1,0 +1,127 @@
+body {
+  background-color: yellow;
+}
+
+.header {
+  max-width: 1200px;
+  min-height: 150px;
+  background-color: bisque;
+  border-radius: 9px;
+  display: flex;
+  margin: 10px auto;
+  .logo {
+    transition: all .3s;
+  }
+  .logo img {
+    display: block;
+    width: 300px;
+    height: 150px;
+    border-radius: 9px;
+  }
+  .title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(3, 124, 194);
+    padding-top: 10px;
+  }
+  .logo:hover {
+    box-shadow: 1px 1px 5px 3px white;
+  }
+  
+}
+
+.main {
+  max-width: 1200px;
+  min-height: 850px;
+  background-color: bisque;
+  margin: 0 auto;
+  border-radius: 9px;
+  transition: all ease 1s;
+  padding-top: 30px;
+  
+  
+  
+  .popup {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    width: 300px;
+    height: 400px;
+    border-radius: 9px;
+    background-color: bisque;
+    border: 2px solid rgb(3, 124, 194);
+    left: 620px;
+    box-shadow: 1px 1px 5px 3px rgb(3, 124, 194);    
+  }
+
+
+  .map {
+    margin: 0 auto;
+    width: 800px;
+    height: 900px;
+    background: url(../../img/city_map.jpg) no-repeat;
+    background-size: contain;
+    
+    
+    .marker {
+      display: block;
+      width: 50px;
+      height: 20px;
+      border-radius: 100px;
+      background-color: white;
+      position: absolute;
+      z-index: 1;
+      text-decoration: none;
+      border: 1px solid red;
+      transition: all .4s;  
+      text-align: center; 
+      color: black;   
+    } 
+    .marker:hover {
+      box-shadow: 0px 0px 3px 3px red;
+      
+      
+    }
+    .marker_dcr {
+      margin-top: 430px;
+      margin-left: 520px; 
+    }
+    .marker_sad_4  {
+      margin-top: 350px;
+      margin-left: 470px;
+    }
+  }
+    .marker_sad_5 {
+      margin-top: 550px;
+      margin-left: 350px;
+    }
+    .marker_sad_6 {
+      margin-top: 400px;
+      margin-left: 470px;
+    }
+    .marker_sad_7 {
+      margin-top: 280px;
+      margin-left: 480px;
+    }
+    .marker_sad_8 {
+      margin-top: 320px;
+      margin-left: 470px;
+    }
+    .marker_sad_10 {
+      margin-top: 560px;
+      margin-left: 520px;
+    }
+    .marker_sad_11 {
+      margin-top: 230px;
+      margin-left: 620px;
+    }
+    .marker_sad_12 {
+      margin-top: 300px;
+      margin-left: 550px;
+    }
+    .marker_sad_13 {
+      margin-top: 280px;
+      margin-left: 620px;
+    }
+}
